@@ -19,7 +19,7 @@ services:
     user: "node"
     working_dir: /home/node/app
     volumes:
-      - ./docker-react-chakra-ui:/home/node/app
+      - ./frontend:/home/node/app
     environment:
       - WATCHPACK_POLLING=true
       - WDS_SOCKET_HOST=127.0.0.1
